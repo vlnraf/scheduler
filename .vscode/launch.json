@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "application",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/a.exe", 
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "newExternalWindow",
+        }
+    ]
+}
